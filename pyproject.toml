@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "supermacro"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.6"
+pyinstaller = "^5.11.0"
+pyqt6 = "^6.5.0"
+pyautogui = "^0.9.53"
+pydirectinput = "^1.0.4"
+pywin32 = "^306"
+pyperclip = "^1.8.2"
+keyboard = "^0.13.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
